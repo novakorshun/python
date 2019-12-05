@@ -65,14 +65,14 @@ class Samurai(Person):
 
 # if __name__ == '__main__':
 
-    # samurajus = Samurai('Kil', 'U', 'Vejas')
+    samurajus = Samurai('Kil', 'U', 'Vejas')
 
     # CREATE
-    # id = input("Enter id: ")
-    # name = input("Enter name: ")
-    # surname = input("Enter surname: ")
-    # asmuo = Person(id, name, surname)
-    # write_to_json_file(asmuo.get_dict_data())
+    id = input("Enter id: ")
+    name = input("Enter name: ")
+    surname = input("Enter surname: ")
+    asmuo = Person(id, name, surname)
+    write_to_json_file(asmuo.get_dict_data())
 
     # READ
     # print(read_json())
